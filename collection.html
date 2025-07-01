@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZyroMart</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1>ZyroMart</h1>
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collection.html">Collections</a></p>
+            <p class="navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+
+        <div class="navbar-menu-toggle" onclick="shownavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <!--Side navbar-->
+   <div class="side-navbar">
+        <p style="text-align: right;" onclick="closenavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"><a href="index.html">Home</a></p>
+            <p class="side-navbar-link"><a href="collection.html">Collections</a></p>
+            <p class="side-navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+    </div>
+
+    <!--product-->
+    <div class="product-section">
+        <form class="product-search">
+            <input type="text" id="search" placeholder="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+
+        <div class="products" id="product">
+
+            <div class="product-box">
+                <img src="https://images.unsplash.com/photo-1634907959510-1e2b0c519be1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Z2FtaW5nJTIwJTIwZGV2aWNlc3xlbnwwfDJ8MHx8fDA%3D" alt="retro" height="200" width="200">
+                <p>Retro video Game</p>
+            </div>
+
+            <div class="product-box">
+                <img src="https://images.unsplash.com/photo-1650780370068-4d2814124881?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGdhbWluZyUyMCUyMGRldmljZXN8ZW58MHwyfDB8fHww"
+                    alt="retro" height="200" width="200">
+                <p>DSLR Camera</p>
+            </div>
+
+            <div class="product-box">
+                <img src="https://plus.unsplash.com/premium_photo-1687892166031-828cc6574c15?q=80&w=881&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="retro" height="200" width="200">
+                <p>Portable retro video games</p>
+            </div>
+
+            <div class="product-box">
+                <img src="https://images.unsplash.com/photo-1612626376109-1e695bc90ea6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGdhbWluZyUyMCUyMGRldmljZXN8ZW58MHwyfDB8fHww"
+                    alt="retro" height="200" width="200">
+                <p>Gaming laptop</p>
+            </div>
+
+            <div class="product-box">
+                <img src="https://images.unsplash.com/photo-1651979089035-436ea2556583?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="retro" height="200" width="200">
+                <p>Gaming Home decor</p>
+            </div>
+
+            <div class="product-box">
+                <img src="https://images.unsplash.com/photo-1723816812847-1403087c84c1?q=80&w=879&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="retro" height="200" width="200">
+                <p>Boom headset</p>
+            </div>
+
+            <div class="product-box">
+                <img src="https://images.unsplash.com/photo-1654621198651-fe1baffcef76?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="retro" height="200" width="200">
+                <p>Portable gaming console</p>
+            </div>
+
+            <div class="product-box">
+                <img src="https://images.unsplash.com/photo-1627421408221-1a304b083c95?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="retro" height="200" width="200">
+                <p>Retro video games cassette</p>
+            </div>
+
+
+        </div>
+    </div>    
+
+
+
+        <!--footer-->
+        <div class="footer">
+            <div class="footer-container">
+                <div class="footer-box-1">
+                    <h2 class="headingtext">ZyroMart</h2>
+                    <p>Your one-stop shop for gadgets, electronics, and everyday essentials at unbeatable prices.</p>
+                    <div class="footer-icons">
+                        <i class="fa-brands fa-instagram" style="color: #ffff;"></i>
+                        <i class="fa-brands fa-facebook" style="color: #ffff;"></i>
+                        <i class="fa-brands fa-twitter" style="color: #ffff;"></i>
+                    </div>
+                </div>
+            </div>
+
+            <P>@2025 ZyroMart</P>
+        </div>
+
+
+
+
+        <script src="collection.js"></script>
+
+
+</body>
+
+</html>
